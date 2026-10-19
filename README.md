@@ -13,6 +13,8 @@ The modelling process therefore had two linked goals:
 1. build a strong high-dimensional classification model; and
 2. reduce that model to a much smaller set of predictors while retaining most of its predictive value.
 
+![Model reduction summary](images/model_reduction_summary.svg)
+
 ## Approach
 
 The original workflow included:
@@ -59,6 +61,8 @@ The final model used a Random Forest with `mtry = 3` and `ntree = 100`.
 | Miss rate | 0.34 | 0.35 |
 | F1 score | 0.75 | 0.71 |
 
+![Selection model vs final budget model](images/model_performance_comparison.svg)
+
 The main result is therefore not that the nine-variable model was identical to the larger model, but that a very large reduction in required information produced only a modest deterioration in several classification metrics.
 
 ## Deployment vs Experimental Work
@@ -90,6 +94,9 @@ voter-turnout-classification/
 │   └── experimental_appendix.R
 ├── data/
 │   └── README.md
+├── images/
+│   ├── model_reduction_summary.svg
+│   └── model_performance_comparison.svg
 ├── outputs/
 │   └── README.md
 └── .gitignore
