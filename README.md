@@ -10,8 +10,8 @@ The starting dataset was the 2022 Cooperative Election Study, containing approxi
 
 The modelling process therefore had two linked goals:
 
-1. build a strong high-dimensional classification model; and
-2. reduce that model to a much smaller set of predictors while retaining most of its predictive value.
+1. Build a strong high-dimensional classification model
+2. Reduce that model to a much smaller set of predictors while retaining most of its predictive value.
 
 ![Model reduction summary](images/model_reduction_summary.svg)
 
