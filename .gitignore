@@ -1,0 +1,29 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Environment / secrets
+.env
+.env.*
+
+# Local data
+data/*.csv
+data/*.rds
+data/*.RData
+
+# Generated outputs
+outputs/*.csv
+outputs/*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
