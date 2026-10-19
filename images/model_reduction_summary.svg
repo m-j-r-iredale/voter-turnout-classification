@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="white"/>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #17232B; }
+    .title { font-size: 34px; font-weight: 700; }
+    .axis { font-size: 20px; fill: #586268; }
+    .label { font-size: 22px; }
+    .value { font-size: 24px; font-weight: 700; }
+    .note { font-size: 22px; fill: #586268; }
+  </style>
+  <text x="600" y="55" text-anchor="middle" class="title">Model Reduction from Survey to Deployment</text>
+  <line x1="120" y1="610" x2="1110" y2="610" stroke="#E2E4E3" stroke-width="2"/>
+  <line x1="120" y1="110" x2="120" y2="610" stroke="#E2E4E3" stroke-width="2"/>
+  <text x="35" y="360" transform="rotate(-90 35 360)" text-anchor="middle" class="axis">Number of variables / predictors</text>
+
+  <rect x="205" y="150" width="190" height="460" fill="#C9D4DC"/>
+  <rect x="505" y="507" width="190" height="103" fill="#9FB1BE"/>
+  <rect x="805" y="604" width="190" height="6" fill="#7C6AA6"/>
+
+  <text x="300" y="135" text-anchor="middle" class="value">706</text>
+  <text x="600" y="492" text-anchor="middle" class="value">158</text>
+  <text x="900" y="590" text-anchor="middle" class="value">9</text>
+
+  <text x="300" y="650" text-anchor="middle" class="label">Original CES</text>
+  <text x="600" y="650" text-anchor="middle" class="label">Non-IV modelling set</text>
+  <text x="900" y="650" text-anchor="middle" class="label">Final budget model</text>
+
+  <text x="900" y="475" text-anchor="middle" class="note">Final model retained</text>
+  <text x="900" y="505" text-anchor="middle" class="note">0.96 reported accuracy</text>
+</svg>
