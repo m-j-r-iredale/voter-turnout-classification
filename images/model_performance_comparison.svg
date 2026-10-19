@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="white"/>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #17232B; }
+    .title { font-size: 34px; font-weight: 700; }
+    .axis { font-size: 18px; fill: #586268; }
+    .label { font-size: 18px; }
+    .value { font-size: 17px; font-weight: 700; }
+    .legend { font-size: 18px; }
+  </style>
+  <text x="600" y="55" text-anchor="middle" class="title">Reported Test-Set Performance</text>
+
+  <line x1="120" y1="640" x2="1110" y2="640" stroke="#E2E4E3" stroke-width="2"/>
+  <line x1="120" y1="110" x2="120" y2="640" stroke="#E2E4E3" stroke-width="2"/>
+  <line x1="120" y1="375" x2="1110" y2="375" stroke="#E2E4E3" stroke-width="1"/>
+  <line x1="120" y1="110" x2="1110" y2="110" stroke="#E2E4E3" stroke-width="1"/>
+
+  <text x="85" y="645" text-anchor="end" class="axis">0.0</text>
+  <text x="85" y="380" text-anchor="end" class="axis">0.5</text>
+  <text x="85" y="115" text-anchor="end" class="axis">1.0</text>
+  <text x="35" y="375" transform="rotate(-90 35 375)" text-anchor="middle" class="axis">Score</text>
+
+  <!-- Accuracy -->
+  <rect x="180" y="131" width="48" height="509" fill="#9FB1BE"/>
+  <rect x="235" y="131" width="48" height="509" fill="#7C6AA6"/>
+  <text x="204" y="121" text-anchor="middle" class="value">0.96</text>
+  <text x="259" y="121" text-anchor="middle" class="value">0.96</text>
+
+  <!-- Precision -->
+  <rect x="380" y="179" width="48" height="461" fill="#9FB1BE"/>
+  <rect x="435" y="216" width="48" height="424" fill="#7C6AA6"/>
+  <text x="404" y="169" text-anchor="middle" class="value">0.87</text>
+  <text x="459" y="206" text-anchor="middle" class="value">0.80</text>
+
+  <!-- Recall -->
+  <rect x="580" y="290" width="48" height="350" fill="#9FB1BE"/>
+  <rect x="635" y="296" width="48" height="344" fill="#7C6AA6"/>
+  <text x="604" y="280" text-anchor="middle" class="value">0.66</text>
+  <text x="659" y="286" text-anchor="middle" class="value">0.65</text>
+
+  <!-- Specificity -->
+  <rect x="780" y="115" width="48" height="525" fill="#9FB1BE"/>
+  <rect x="835" y="115" width="48" height="525" fill="#7C6AA6"/>
+  <text x="804" y="105" text-anchor="middle" class="value">0.99</text>
+  <text x="859" y="105" text-anchor="middle" class="value">0.99</text>
+
+  <!-- F1 -->
+  <rect x="980" y="243" width="48" height="397" fill="#9FB1BE"/>
+  <rect x="1035" y="264" width="48" height="376" fill="#7C6AA6"/>
+  <text x="1004" y="233" text-anchor="middle" class="value">0.75</text>
+  <text x="1059" y="254" text-anchor="middle" class="value">0.71</text>
+
+  <text x="231" y="685" text-anchor="middle" class="label">Accuracy</text>
+  <text x="431" y="685" text-anchor="middle" class="label">Precision</text>
+  <text x="631" y="685" text-anchor="middle" class="label">Recall</text>
+  <text x="831" y="685" text-anchor="middle" class="label">Specificity</text>
+  <text x="1031" y="685" text-anchor="middle" class="label">F1 score</text>
+
+  <rect x="390" y="710" width="20" height="20" fill="#9FB1BE"/>
+  <text x="420" y="727" class="legend">Selection model</text>
+  <rect x="650" y="710" width="20" height="20" fill="#7C6AA6"/>
+  <text x="680" y="727" class="legend">9-variable budget model</text>
+</svg>
